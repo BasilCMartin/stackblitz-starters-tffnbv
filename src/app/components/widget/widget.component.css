@@ -1,0 +1,24 @@
+.widget-card{
+  width:350px;
+  margin:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.widget-form-field-area {
+  display:flex;
+  flex-direction:column;
+}
+
+.widget-form-field {
+  background-color:white;
+}
+
+.delete-button{
+  background-color:#6c3cbc;
+}
+
+.widget-title{
+  font-size:medium;
+  font-weight:bold
+}
+

@@ -1,0 +1,16 @@
+<span class="title-container">
+  <h3>Widgets: <b>{{widgets.length}}</b>
+</h3> 
+&nbsp;
+<h3>Total Price: <b>{{total| currency:'USD':'symbol'}}</b></h3>
+</span>
+<div class="widget-container">
+  <div *ngFor="let widget of widgets " >
+    <app-widget 
+    [inputWidget]="widget"
+    (deleteWidgetEvent)="deleteWidget($event)"
+    ></app-widget>
+  </div>
+
+</div>
+

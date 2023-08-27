@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 
+
+import {WidgetModule} from './widget/widget.module'
+
 @Component({
   selector: 'my-app',
   standalone: true,
@@ -10,6 +13,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     MatToolbarModule,
     RouterModule,
+    WidgetModule
   ]
 })
 export class AppComponent implements OnInit {
